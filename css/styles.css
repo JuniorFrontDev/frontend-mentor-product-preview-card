@@ -78,19 +78,6 @@ img {
   }
 }
 
-.product__image--desktop {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .product__image--desktop {
-    display: block;
-  }
-  .product__image--mobile {
-    display: none;
-  }
-}
-
 .product__information {
   padding: 2.2rem;
 }
